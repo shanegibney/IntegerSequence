@@ -22,7 +22,7 @@ Where gcd() (greatest common divisor) is a function which compares two integers 
 
 This integer sequence behaves unexpectedly after 638 iterations.
 
-File at /src/com/company/Main.java generates coordinates from the sequence and sends the to a plain text file data.dat
+File at /src/com/company/Main.java generates coordinates from the sequence and sends the coordinates to a plain text file data.dat
 
 This file can be imported into any plotting software such as Gnuplot.
 
@@ -35,7 +35,7 @@ gnuplot> set autoscale x
 gnuplot> plot 'data.dat' with points pointtype 5
 ```
 
-Run the for loop for 700 iterations and you will see that something odd happens in the graph after 638 iterations.
+Run the 'for loop' for 700 iterations and you will see that something odd happens in the graph after 638 iterations.
 
 From 'Amazing Graphs' a [Youtube](https://youtu.be/pAMgUB51XZA) Numberphile video.
 
