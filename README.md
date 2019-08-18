@@ -2,12 +2,15 @@
 
 ## The rule
 
-
+Start with a rwo of numbers n from 0 to 9
+Then the second row will start with 1 and 1.
+The rule below produces the rest of the integers
+for this second row a(n)
 
    ```
    n ->  0 1 2 3 4 5 6 7 8 9
    a(n) ->  1 1 4 8 2
-   if no common factor between n and a(n-1)
+
    if (gcd(n,a(n-1)) = 1){
    a(n) = a(n-1) + n + 1
    } else {
@@ -35,6 +38,6 @@ gnuplot> plot 'data.dat' with points pointtype 5
 
 Run the for loop for 700 iterations and you will see that something odd happens in the graph after 638 iterations.
 
-For Amazing Graphs a [Youtube](https://youtu.be/pAMgUB51XZA) Numberphile video
+From Amazing Graphs a [Youtube](https://youtu.be/pAMgUB51XZA) Numberphile video
 
 Using Java 11
