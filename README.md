@@ -2,7 +2,7 @@
 
 ## The rule
 
-Start with a rwo of numbers n from 0 to 9
+Start with two of numbers n from 0 to 9
 Then the second row will start with 1 and 1.
 The rule below produces the rest of the integers
 for this second row a(n)
